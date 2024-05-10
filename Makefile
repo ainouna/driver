@@ -213,8 +213,8 @@ ifdef ADB_BOX
 obj-y += smartcard/
 obj-y += fan_adb_box/
 obj-y += cec_adb_box/
-obj-y += dvbt/as102/
-obj-y += dvbt/siano/
+obj-y += frontends/dvbt/as102/
+obj-y += frontends/dvbt/siano/
 endif
 
 ifdef ADB_2850
@@ -326,17 +326,20 @@ obj-y += siinfo/
 obj-y += rmu/
 obj-y += fan_ipbox99xx/
 obj-y += smartcard/
+obj-y += frontends/dvbt/as102/
 endif
 
 ifdef IPBOX99
 obj-y += siinfo/
 obj-y += fan_ipbox99xx/
 obj-y += smartcard/
+obj-y += frontends/dvbt/as102/
 endif
 
 ifdef IPBOX55
 obj-y += siinfo/
 obj-y += smartcard/
+obj-y += frontends/dvbt/as102/
 endif
 
 ifdef CUBEREVO
@@ -374,6 +377,8 @@ obj-y += sagemcomtype/
 obj-y += fan_sagemcom88/
 obj-y += dvbt/as102/
 obj-y += dvbt/siano/
+obj-y += frontends/dvbt/as102/
+obj-y += frontends/dvbt/siano/
 endif
 
 ifdef ARIVALINK200
@@ -381,6 +386,8 @@ obj-y += smartcard/
 obj-y += cec_adb_box/
 obj-y += dvbt/as102/
 obj-y += dvbt/siano/
+obj-y += frontends/dvbt/as102/
+obj-y += frontends/dvbt/siano/
 endif
 
 ifdef PACE7241
@@ -409,4 +416,3 @@ ifdef HCHS8100
 endif
 
 endif
-
